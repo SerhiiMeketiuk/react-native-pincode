@@ -59,6 +59,7 @@ export interface IProps {
   styleColorSubtitleError: string
   styleColorTitle: string
   styleColorTitleError: string
+  styleButtonsContainer?: StyleProp<ViewStyle>
   styleColumnButtons?: StyleProp<ViewStyle>
   styleColumnDeleteButton?: StyleProp<ViewStyle>
   styleContainer?: StyleProp<ViewStyle>
@@ -132,6 +133,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
     styleColorSubtitleError: colors.alert,
     styleViewTitle: null,
     styleRowButtons: null,
+    styleButtonsContainer: null,
     styleColumnButtons: null,
     styleEmptyColumn: null,
     textPasswordVisibleFamily: "system font",
@@ -648,7 +650,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
             ? this.props.passwordComponent()
             : this.renderCirclePassword()}
         </View>
-        <Grid style={styles.grid}>
+        <Grid style={[styles.grid, this.props.styleButtonsContainer]}>
           <Row
             style={[
               styles.row,
