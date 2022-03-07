@@ -40,6 +40,7 @@ export interface IProps {
   styleColorSubtitleError?: string
   styleColorTitle?: string
   styleColorTitleError?: string
+  styleButtonsContainer?: StyleProp<ViewStyle>
   styleColumnButtons?: StyleProp<ViewStyle>
   styleColumnDeleteButton?: StyleProp<ViewStyle>
   styleContainer: StyleProp<ViewStyle>
@@ -243,6 +244,7 @@ class PinCodeChoose extends React.PureComponent<IProps, IState> {
             styleColorSubtitleError={this.props.styleColorSubtitleError}
             styleColorTitle={this.props.styleColorTitle}
             styleColorTitleError={this.props.styleColorTitleError}
+            styleButtonsContainer={this.props.styleButtonsContainer}
             styleColumnButtons={this.props.styleColumnButtons}
             styleColumnDeleteButton={this.props.styleColumnDeleteButton}
             styleContainer={this.props.styleContainerPinCode}
