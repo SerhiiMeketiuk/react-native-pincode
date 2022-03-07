@@ -45,6 +45,7 @@ export type IProps = {
   storePin?: any
   styleAlphabet?: StyleProp<TextStyle>
   styleMainContainer?: StyleProp<ViewStyle>
+  styleButtonsContainer?: StyleProp<ViewStyle>
   stylePinCodeChooseContainer?: StyleProp<ViewStyle>
   stylePinCodeEnterContainer?: StyleProp<ViewStyle>
   styleLockScreenButton?: StyleProp<ViewStyle>
