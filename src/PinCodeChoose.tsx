@@ -162,6 +162,7 @@ class PinCodeChoose extends React.PureComponent<IProps, IState> {
             styleColorSubtitleError={this.props.styleColorSubtitleError}
             styleColorTitle={this.props.styleColorTitle}
             styleColorTitleError={this.props.styleColorTitleError}
+            styleButtonsContainer={this.props.styleButtonsContainer}
             styleColumnButtons={this.props.styleColumnButtons}
             styleColumnDeleteButton={this.props.styleColumnDeleteButton}
             styleContainer={this.props.styleContainerPinCode}
