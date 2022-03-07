@@ -59,6 +59,7 @@ export interface IProps {
   styleColorSubtitleError?: string
   styleColorTitle?: string
   styleColorTitleError?: string
+  styleButtonsContainer?: StyleProp<ViewStyle>
   styleColumnButtons?: StyleProp<ViewStyle>
   styleColumnDeleteButton?: StyleProp<ViewStyle>
   styleContainer?: StyleProp<ViewStyle>
@@ -273,6 +274,7 @@ class PinCodeEnter extends React.PureComponent<IProps, IState> {
           styleCircleHiddenPassword={this.props.styleCircleHiddenPassword}
           styleCircleSizeEmpty={this.props.styleCircleSizeEmpty}
           styleCircleSizeFull={this.props.styleCircleSizeFull}
+          styleButtonsContainer={this.props.styleButtonsContainer}
           styleColumnButtons={this.props.styleColumnButtons}
           styleColumnDeleteButton={this.props.styleColumnDeleteButton}
           styleColorButtonTitle={this.props.styleColorButtonTitle}
