@@ -799,7 +799,8 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "flex-end",
     alignItems: "center",
-    flex: 2
+    flex: 0,
+    marginTop: 64
   },
   row: {
     flex: 0,
@@ -859,7 +860,7 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   flexCirclePassword: {
-    flex: 2,
+    flex: 1,
     justifyContent: "center",
     alignItems: "center"
   },
@@ -880,7 +881,7 @@ const styles = StyleSheet.create({
   grid: {
     justifyContent: 'flex-start',
     width: "100%",
-    flex: 7
+    flex: 0
   }
 });
 
